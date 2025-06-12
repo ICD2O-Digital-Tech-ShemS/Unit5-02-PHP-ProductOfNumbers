@@ -20,22 +20,22 @@
     <script src="./js/script.js"></script>
 
     <form action="#" method="post">
-        <h6> ENTER A POSITIVE NUMBER</h6>
-        <div class="mdl-textfield mdl-js-textfield">
+        <h3> ENTER A POSITIVE NUMBER</h3>
             <input type="number" id="userNum" name="userNum" />
             <span class="mdl-textfield__error">Invalid number!</span>
         </div>
     </form>
 
     <form action="#" method="post">
-        <h6> ENTER A POSITIVE NUMBER</h6>
-        <div class="mdl-textfield mdl-js-textfield">
+        <h3> ENTER A POSITIVE NUMBER</h3>
             <input type="number" id="userNum2" name="userNum2" />
             <span class="mdl-textfield__error">Invalid number!</span>
         </div>
         <input type="submit" value="ENTER">
     </form>
     <br/>
-    <iframe id="results" name="results"></iframe>
+    <iframe id="results" name="results">
+
+    </iframe>
 </body>
 </html>
