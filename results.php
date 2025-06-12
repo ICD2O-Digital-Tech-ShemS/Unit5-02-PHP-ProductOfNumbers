@@ -16,4 +16,4 @@ for ($counter = 0; $counter < $userNum2; $counter++) {
 }
 ?>  
     <h3>Results:</h3>
-    <?php echo $numbers . " = " . $sum ?>
+    <?php echo $userNum . " x " . $userNum2 . " = " . $sum ?>
