@@ -19,14 +19,11 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./js/script.js"></script>
 
-    <form action="#" method="post">
+    <form action="./results.php" method="post" target="results">
         <h3> ENTER A POSITIVE NUMBER</h3>
             <input type="number" id="userNum" name="userNum" />
             <span class="mdl-textfield__error">Invalid number!</span>
         </div>
-    </form>
-
-    <form action="#" method="post">
         <h3> ENTER A POSITIVE NUMBER</h3>
             <input type="number" id="userNum2" name="userNum2" />
             <span class="mdl-textfield__error">Invalid number!</span>
