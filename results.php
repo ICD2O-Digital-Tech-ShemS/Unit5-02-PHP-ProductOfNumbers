@@ -2,17 +2,17 @@
     $sum = 0;
     $numbers = "";
 
-    $userNumFirst = $_POST['firstNumber'];
-    $userNumSecond = $_POST['secondNumber'];
+    $userNum = $_POST['userNum'];
+    $userNum2 = $_POST['userNum2'];
 
-for ($counter = 0; $counter < $userNumSecond; $counter++) {
+for ($counter = 0; $counter < $userNum2; $counter++) {
     if ($counter < $userNumSecond - 1){
-        $numbers = $numbers . $userNumFirst . "+";
+        $numbers = $numbers . $userNum . "+";
     }
     else {
-        $numbers = $numbers . $userNumFirst;
+        $numbers = $numbers . $userNum;
     }
-    $sum = $sum + $userNumFirst;
+    $sum = $sum + $userNum;
 }
 ?>  
     <h3>Results:</h3>
